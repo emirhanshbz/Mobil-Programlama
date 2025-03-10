@@ -1,0 +1,28 @@
+# Android Studio proje ayarlarını dışarıda bırak
+.gradle/
+.idea/
+*.iml
+/local.properties
+
+# Build klasörlerini yükleme
+/build/
+*.apk
+*.aab
+
+# Cache ve log dosyalarını dışarıda bırak
+/captures/
+output.json
+# Android Studio proje ayarlarını dışarıda bırak
+.gradle/
+.idea/
+*.iml
+/local.properties
+
+# Build klasörlerini yükleme
+/build/
+*.apk
+*.aab
+
+# Cache ve log dosyalarını dışarıda bırak
+/captures/
+output.json
