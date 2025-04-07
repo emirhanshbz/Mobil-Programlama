@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sonucSayfaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top|center_horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <ListView
+        android:id="@+id/listeSonuclar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="10dp" />
+
+    <Button
+        android:id="@+id/btnGeriDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geri Dön"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
