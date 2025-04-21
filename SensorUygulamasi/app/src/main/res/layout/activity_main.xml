@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="32dp"
+      android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/buttonAccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer (İvmeölçer) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCompass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compass (Pusula) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonGyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope (Jiroskop) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity (Nem) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light (Işık) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonMagnetometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magnetometer (Manyetometre) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressure (Basınç) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonProximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximity (Yakınlık) Sensor"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonThermometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thermometer (Sıcaklık) Sensor" />
+  </LinearLayout>
+</ScrollView>
