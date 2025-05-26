@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad" />
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad" />
+    <EditText
+        android:id="@+id/editTextYas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yas"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/editTextSehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sehir" />
+    
+    <Button
+        android:id="@+id/buttonKayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt Ekle" />
+
+    <Button
+        android:id="@+id/buttonGoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıtları Göster" />
+
+    <Button
+        android:id="@+id/buttonSil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt Sil" />
+
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kayıt Güncelle" />
+
+    <TextView
+        android:id="@+id/textViewBilgiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+
+</LinearLayout>
